@@ -1,1 +1,1 @@
-console.log(localStorage.getItem("lastname"));
+// console.log(localStorage.getItem("lastname"));
