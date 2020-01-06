@@ -4,7 +4,8 @@
     color: white;
     font-size: 1.5em;
     box-shadow: .5px;
-    /* yeah i forgot how to do this but boxshadows are official */
+    /* position: fixed;
+    width: 100% */
 }
 
 
@@ -26,6 +27,9 @@
     background: #f6f6f6;
     border-radius: .5em;
     border-width: thick;
+    padding: 1em;
+    height: calc(100vh - 6em);
+    overflow-y: auto;
 }
 
 .table {}
@@ -39,9 +43,21 @@
 }
 
 .tasks {
-    background-color: white;
     border-radius: .5em;
-    border-width: thick;
+    /* border-width: thick; */
     margin: 2em;
     padding: 1em;
+}
+
+.inner {
+    margin-right: 2.5em;
+    margin-left: 2.5em;
+}
+
+.completed {
+    background-color: #b8dac2;
+}
+
+.in-progress {
+    background-color: antiquewhite;
 }
