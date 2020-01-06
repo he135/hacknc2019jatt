@@ -3,11 +3,68 @@
 
 <head>
     <!-- <script type="text/javascript" src="jquery-3.3.1.js"></script> -->
-    <script type="text/javascript" src="test.js"></script>
+    <script type="text/javascript" src="child.js"></script>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
 </head>
 
 <body>
-    <p id="data">Hi</p>
-</body>
+        <!-- this is the name and balance info -->
+        <section class="hero is-medium is-info">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title has-text-left-desktop">
+                        <!-- try and make this bigger -->
+                        Welcome FIRSTNAME LASTNAME
+                    </h1>
+                    <h2 class="subtitle has-text-right-desktop">
+                        <!-- make this go to the rigt -->
+                        Current Balance:<span id="balance"> __</span>
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <!-- available tasks -->
+        <section class = "hero-body">
+            <div class="container">
+                <h1 class="title">TASKS</h1>
+               
+                <!-- start of tiles -->
+                <div class="tile is-ancestor">
+                        <div class="tile is-parent is-vertical">
+                                <article class="tile is-child box button is-large">
+                                    <p class="task">Do Dishes</p>
+                                    <!-- add image later -->
+                                </article>
+                                <article class="tile is-child box button is-large">
+                                        <p class="task">Vacuum Room</p>
+                                        <!-- add image later -->
+                                </article>
+                        </div>
+                        <div class="tile is-parent is-vertical">
+                                <article class="tile is-child box button is-large">
+                                        <p class="task">Do Laundry</p>
+                                        <!-- add image later -->
+                                </article>
+                                <article class="tile is-child box button is-large">
+                                        <p class="task">Mow Lawn</p>
+                                        <!-- add image later -->
+                                </article>
+                        </div>
+                        <div class="tile is-parent is-vertical">
+                                <article class="tile is-child box button is-large">
+                                        <p class="task">Sweep Floor</p>
+                                        <!-- add image later -->
+                                </article>
+                                <article class="tile is-child box button is-large">
+                                        <p class="task">Clean Room</p>
+                                        <!-- add image later -->
+                                </article>
+                        </div>
+                          </article>
+                        </div>
+                      </div>
 
+        </section>                    
+
+    </body>
 </html>
