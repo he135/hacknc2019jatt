@@ -1,0 +1,47 @@
+.bluebackground {
+    background-color: #53b3db;
+    padding: 1.25em;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: .5px;
+    /* yeah i forgot how to do this but boxshadows are official */
+}
+
+
+/* .right {
+  float: right;
+} */
+
+.border {
+    border-radius: .1em;
+    border-width: medium;
+    padding: .5em;
+}
+
+.add {
+    text-align: center;
+}
+
+.tasklist {
+    background: #f6f6f6;
+    border-radius: .5em;
+    border-width: thick;
+}
+
+.table {}
+
+.title {
+    padding: 1em;
+}
+
+.childname {
+    text-align: center;
+}
+
+.tasks {
+    background-color: white;
+    border-radius: .5em;
+    border-width: thick;
+    margin: 2em;
+    padding: 1em;
+}
